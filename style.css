@@ -1,0 +1,461 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: #1137ca;
+}
+@font-face {
+    font-family: a;
+    src: url(./jost-variable.ttf);
+}
+@font-face {
+    font-family: b;
+    src: url(./KFOlCnqEu92Fr1MmEU9fBBc4\ \(1\).ttf);
+}
+@font-face {
+    font-family: c;
+    src: url(./KFOmCnqEu92Fr1Mu4mxK\ \(1\).ttf);
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+#page1{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+#page1>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page1>nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    position: absolute;
+    height: 10vh;
+    width: 100vw;
+}
+#page1>nav>img{
+    margin-top: -1.7vw;
+    width: 7%;
+}
+#right>button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    background-color: #0c49f1;
+    font-size: 15px;
+    color: #fff;
+    font-family: a;
+
+}
+.buttom-page1>h1{
+    font-family: a;
+    font-size: 5.9vw;
+    color: #fff;
+    line-height: 1;
+    font-weight: 100;
+}
+.buttom-page1{
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+    height: 50vh;
+    width: 40vw;
+}
+.innner{
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: 100;
+    justify-content: space-between;
+    height: 35%;
+    width: 100%;
+    font-family: a;
+}
+.innner>button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50vh;
+    background-color: #fff;
+    font-family: b;
+    color: #0c49f1;
+}
+.innner>h4{
+    font-size: 1.3vw;
+    font-size: 100;
+    color: #fff;
+}
+#page2{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0a3cce;
+    position: relative;
+    font-size: a;
+    padding: 0 8vw;
+    color: #fff;
+}
+#page2>h2{
+    position: absolute;
+    top: 10%;
+   margin-bottom: 8vw;
+   font-weight: 100;
+   font-size: 22px;
+}
+#page2>h1{
+    position: absolute;
+    top: 20%;
+   font-weight: 100;
+   font-size: 60px;  
+   line-height: 1.3; 
+   color: #dadada69;
+}
+#page3{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+#page3>canvas{
+    max-width: 100vw;
+    max-height: 100vh;
+}
+#page4{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #1137ca;
+    padding: 0 10vw;
+    color: #fff;
+    font-family: a;
+}
+#page4>h3{
+    font-weight: 100;
+    font-size: 22px;
+    margin-bottom: 3vw;
+}
+#page4>h1{
+    font-weight: 100;
+    font-size: 55px;
+    line-height: 1.3;
+   color: #dadada69;
+}
+#page5{
+    height: 100vh;
+    width: 100vw;
+    background-color: #1137ca;
+    position: relative;
+}
+#page5>canvas{
+    max-width: 100vw;
+    max-height: 100vh;
+}
+#page6{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #1137ca;
+    padding: 0 10vw;
+    color: #fff;
+    font-family: a;
+}
+#page6>h3{
+    font-weight: 100;
+    font-size: 22px;
+    margin-bottom: 3vw;
+}
+#page6>h1{
+    font-weight: 100;
+    font-size: 55px;
+    line-height: 1.3;
+   color: #dadada69;
+}
+#page7{
+    height: 100vh;
+    width: 100vw;
+    background-color: #1137ca;
+    position: relative;
+}
+#page7>canvas{
+    max-width: 100vw;
+    max-height: 100vh;
+}
+#circle{
+    height: 30vw;
+    width: 30vw;
+    border-radius: 50%;
+    border: 1px solid #ffffff41;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#page7inner{
+    height: 70%;
+    width: 70%;
+    border: 1px solid #ffffff9d;
+    background-color: transparent;
+    border-radius: 50%;
+
+}
+#page8{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: #1137ca;
+    color: #fff;
+
+}
+#page8 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page8-bot{
+    position: absolute;
+    left: 50%;
+    bottom: 15%;
+    transform: translateX(-50%);
+    font-family: a;
+    text-align: center;
+}
+#page8-bot>h1{
+    font-size: 7vw;
+    font-weight: 100;
+}
+#page8-bot>button{
+    color: #0a3cce;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 50px;
+}
+#page9{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    background-color: #1137ca;
+    color: #fff;
+}
+#rigth9{
+    position: relative;
+    height: 100%;
+    width: 40%;
+}
+#rigth9>h1{
+    position: absolute;
+    right: 10%;
+    top: 40%;
+    transform: translateY(-50%);
+    font-family: a;
+    font-weight: 100;
+    font-size: 5.3vw;
+    line-height: 1;
+}
+#left9{
+    position: relative;
+    height: 100%;
+    width: 60%;
+}
+#left-pic{
+    height: 65%;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 15px;
+    background-image: url(https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-1.jpeg);
+    background-size: cover;
+}
+#page10{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    background-color: #1137ca;
+    color: #fff;
+}
+#right10{
+    position: absolute;
+    left: 40%;
+    height: 100%;
+    width: 55%;
+}
+.text{
+    position: relative;
+    margin-top: 55px;
+    font-family: a;
+}
+.text>h1{
+    font-size: 1.5vw;
+    color: #ffffff;
+}
+.text>h3{
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 1.4;
+    color: #ffffffad;
+}
+#page11{
+    height: 110vh;
+    width: 100vw;
+    position: relative;
+    background-color: #fffffff7;
+    font-family: a;
+}
+#page11>h1{
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    font-size: 4vw;
+    color: black;
+    font-weight: 100;
+}
+#page11-inner{
+    position: relative;
+    top: 17%;
+    width: 100%;
+    height: 25%;
+    margin-bottom: 2vw;
+    display: flex;
+
+}
+.left11{
+    position: relative;
+    height: 100%;
+    width: 40%;
+    left: 10%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.left11 img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
+.right11{
+    padding-top: 4vw;
+    position: absolute;
+    left: 53%;
+    height: 100%;
+    width: 50%;
+    font-family: a;
+}
+.right11 h4{
+    font-weight: 100;   
+}
+.right11 h2{
+    font-weight: 100;
+}
+#page12{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: #02268e;
+    color: #fff;
+}
+.right12{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    font-family: a;
+}
+.right12 h1{
+    font-size: 5.4vw;
+    line-height: 2;
+    font-weight: 100;
+}
+.right12 h4{
+    font-weight: 100;
+    font-size: 20px;
+    color: #ffffffab;
+}
+#page13{
+    position: relative;
+    width: 100vw;
+    height: 60vh;
+    background-color: #000;
+    font-family: a;
+    color: #fff;
+    padding: 7vw 10vw;
+}
+#page13>h1{
+    font-size: 5.4vw;
+    font-weight: 100;
+    line-height: 1;
+}
+#page13>button{
+    border-radius: 50px;
+    padding: 10px 30px;
+    color: #fff;
+    border: none ;
+    background-color: #0c49f1;
+    margin-top: 2.5vw;
+}
+#page14{
+    height: 60vh;
+    width: 100vw;
+    position: relative;
+    background-color: #000;
+}
+.page14-inner{
+    position: relative;
+    padding: 3vw 10vw;
+    height: 33.33%;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    color: #fff;
+    font-family: a;
+    border-top: .5px solid #ffffff59;
+    border-bottom: .5px solid #ffffff6e;
+
+}
+.page14-inner>i{
+    font-weight: 100;
+    font-size: 2.4vw;
+    position: relative;
+    z-index: 9999;
+}
+.page14-inner>h1{
+    font-size: 3vw;
+    font-weight: 100;
+    position: relative;
+    z-index: 9999;
+}
+.center14{
+    height: 0%;
+    width: 100%;
+    background-color: #0a3cce;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition: all ease .5s;
+}
+
+
+.page14-inner:hover .center14{
+    height: 100%;
+}
